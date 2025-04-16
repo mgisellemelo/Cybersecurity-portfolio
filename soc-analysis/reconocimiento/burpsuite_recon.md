@@ -27,7 +27,7 @@ Download el repositorio de Juice-shop desde Github hasta tu maquina local.
 Situate en la carpeta y corre los comandos mpn run y mpn start.
 Luego abri tu navegador y coloca tu IP+:3000
 
-![Skärmbild 2025-04-16 174038](https://github.com/user-attachments/assets/958232bd-3b9c-4bd4-9fd3-ca9bb96d1948)
+![Skärmbild 2025-04-16 174021](https://github.com/user-attachments/assets/a3ee1231-7d98-4dd2-9f0c-7a45614210ca)
 
 ### 2. Iniciar BurpSuite
 
