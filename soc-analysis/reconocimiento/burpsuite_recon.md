@@ -35,7 +35,8 @@ Desde tu terminal en KaliLinux coloca el comando:
 sudo burpsuite
 
 Esto va a abrir el programa en donde vas a iniciar un proyecto nuevo.
-![Skärmbild 2025-04-16 174032](https://github.com/user-attachments/assets/762c045d-7d17-4008-a4a6-54ea7cabcdf1)
+
+![Skärmbild 2025-04-16 174032](https://github.com/user-attachments/assets/a4e9a452-5c2c-4d69-8aa7-cbb2868486da)
 
 
 ### 3. Configura tu proxy
