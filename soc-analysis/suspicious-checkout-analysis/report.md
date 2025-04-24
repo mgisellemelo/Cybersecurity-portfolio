@@ -110,7 +110,8 @@ Revisar logs de acceso a endpoints /rest/basket/*, /rest/order/*, etc.
 
 
 
-##🛡️ 5. Recomendaciones
+##
+🛡️ 5. Recomendaciones
 
 
 Categoría | Recomendación
