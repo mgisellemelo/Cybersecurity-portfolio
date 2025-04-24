@@ -94,7 +94,7 @@ Posible modificación si la API permite métodos PUT
 
 
 
-
+##
 📈 Análisis desde perspectiva SOC
 Indicadores de actividad sospechosa:
 
@@ -110,7 +110,7 @@ Revisar logs de acceso a endpoints /rest/basket/*, /rest/order/*, etc.
 
 
 
-🛡️ 5. Recomendaciones
+##🛡️ 5. Recomendaciones
 
 
 Categoría | Recomendación
@@ -122,7 +122,7 @@ Secure Development | Implementar pruebas automatizadas para detectar IDOR y expo
 
 (Validación de roles en cada endpoint, Revocación o expiración de tokens comprometidos, Monitoreo de actividades anómalas con privilegios de admin, Restringir acceso incluso entre roles privilegiados, Evitar que el cliente controle acciones críticas como ver pedidos de otros usuarios).
 
-
+##
 🛠️ Mitigaciones y buenas prácticas
 
 Componente	Recomendación
