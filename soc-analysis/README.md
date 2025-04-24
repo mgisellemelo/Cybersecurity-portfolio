@@ -7,7 +7,7 @@ Este repositorio documenta mi experiencia como analista SOC utilizando OWASP Jui
 - OWASP Juice Shop
 - BurpSuite
 - Wireshark
-- [SIEM elegida] (Wazuh, Splunk, Elastic, etc.)
+- [SIEM elegida]
 
 ## 📁 Contenido
 
