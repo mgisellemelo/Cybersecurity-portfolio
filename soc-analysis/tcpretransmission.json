@@ -1,0 +1,57 @@
+GET /assets/public/images/deluxe/blankBoxes.png HTTP/1.1
+Host: 10.0.2.15:3000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://10.0.2.15:3000/
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
+If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
+If-None-Match: W/"46a66-19596799bb8"
+Priority: u=0, i
+
+
+HTTP/1.1 304 Not Modified
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
+ETag: W/"46a66-19596799bb8"
+Date: Mon, 21 Apr 2025 21:53:03 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+GET /assets/public/images/products/no-results.png HTTP/1.1
+Host: 10.0.2.15:3000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://10.0.2.15:3000/
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
+If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
+If-None-Match: W/"7a59-19596799bb8"
+Priority: u=0, i
+
+
+HTTP/1.1 304 Not Modified
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
+ETag: W/"7a59-19596799bb8"
+Date: Mon, 21 Apr 2025 21:53:06 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
