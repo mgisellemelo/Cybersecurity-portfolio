@@ -1,0 +1,31 @@
+POST /api/Feedbacks/ HTTP/1.1
+Host: 10.0.2.15:3000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 83
+Origin: http://10.0.2.15:3000
+Connection: keep-alive
+Referer: http://10.0.2.15:3000/
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss
+Priority: u=0
+
+{"captchaId":1,"captcha":"160","comment":"really bad bad (anonymous)","rating":"1"}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Location: /api/Feedbacks/9
+Content-Type: application/json; charset=utf-8
+Content-Length: 178
+ETag: W/"b2-agMJ6S/QQkjVbhvFnIHEYPeWViw"
+Vary: Accept-Encoding
+Date: Mon, 21 Apr 2025 21:47:07 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"status":"success","data":{"id":9,"comment":"really bad bad (anonymous)","rating":1,"updatedAt":"2025-04-21T21:47:07.145Z","createdAt":"2025-04-21T21:47:07.145Z","UserId":null}}
