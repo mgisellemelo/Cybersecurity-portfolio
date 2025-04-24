@@ -8,7 +8,7 @@ Content-Type: application/json
 Content-Length: 41
 Origin: http://00.0.0.00:3000
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss
 Priority: u=0
 
