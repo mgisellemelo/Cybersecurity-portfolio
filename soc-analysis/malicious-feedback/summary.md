@@ -1,5 +1,7 @@
 💥 Feedback Injection sin autenticación
-🔍 Durante el análisis de la aplicación vulnerable, se identificó que el endpoint:
+##
+**🔍 Durante el análisis de la aplicación vulnerable**, se identificó que el endpoint:
+
 bash
 
 POST /api/Feedbacks/
@@ -24,8 +26,8 @@ Feedback almacenado con "UserId": null
 
 Sin verificación de sesión ni autorización.
 
-
-🔍 Hallazgos:
+##
+**🔍 Hallazgos:**
 Permite spam y posible abuso masivo del endpoint.
 
 
@@ -34,8 +36,8 @@ Si se combinara con XSS (<script> en comentarios), podría explotarse.
 
 captchaId y captcha pueden ser manipulados para bypass (validación débil).
 
-
-🛡️ Recomendaciones:
+##
+**🛡️ Recomendaciones:**
 Requiere autenticación para enviar feedback (o aplicar mecanismos de limitación).
 
 
