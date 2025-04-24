@@ -1,14 +1,14 @@
 POST /rest/user/login HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: application/json, text/plain, */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Content-Type: application/json
 Content-Length: 41
-Origin: http://10.0.2.15:3000
+Origin: http://00.0.0.00:3000
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss
 Priority: u=0
 
@@ -21,22 +21,22 @@ Feature-Policy: payment 'self'
 X-Recruiting: /#/jobs
 Content-Type: application/json; charset=utf-8
 Content-Length: 799
-ETag: W/"31f-QNA0gFXQg104cfNaXhoSGOC0dJQ"
+ETag: W/"31f-QNA0gF..."
 Vary: Accept-Encoding
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
-{"authentication":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw","bid":1,"umail":"admin@juice-sh.op"}}
+{"authentication":{"token":"eyJ...","bid":1,"umail":"ad*@ju*-sh.*"}}
 GET /rest/basket/1 HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: application/json, text/plain, */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
+Authorization: Bearer eyJ0...
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 
 
@@ -47,7 +47,7 @@ X-Frame-Options: SAMEORIGIN
 Feature-Policy: payment 'self'
 X-Recruiting: /#/jobs
 Content-Type: application/json; charset=utf-8
-ETag: W/"51e-TAws3x3DjXI4CZlq/ssqFgLADHE"
+ETag: W/"51e-TAws..."
 Vary: Accept-Encoding
 Content-Encoding: gzip
 Date: Mon, 21 Apr 2025 21:51:01 GMT
@@ -57,16 +57,16 @@ Transfer-Encoding: chunked
 
 {"status":"success","data":{"id":1,"coupon":null,"UserId":1,"createdAt":"2025-04-21T21:34:39.821Z","updatedAt":"2025-04-21T21:34:39.821Z","Products":[{"id":1,"name":"Apple Juice (1000ml)","description":"The all-time classic.","price":1.99,"deluxePrice":0.99,"image":"apple_juice.jpg","createdAt":"2025-04-21T21:34:39.551Z","updatedAt":"2025-04-21T21:34:39.551Z","deletedAt":null,"BasketItem":{"ProductId":1,"BasketId":1,"id":1,"quantity":2,"createdAt":"2025-04-21T21:34:39.899Z","updatedAt":"2025-04-21T21:34:39.899Z"}},{"id":2,"name":"Orange Juice (1000ml)","description":"Made from oranges hand-picked by Uncle Dittmeyer.","price":2.99,"deluxePrice":2.49,"image":"orange_juice.jpg","createdAt":"2025-04-21T21:34:39.552Z","updatedAt":"2025-04-21T21:34:39.552Z","deletedAt":null,"BasketItem":{"ProductId":2,"BasketId":1,"id":2,"quantity":3,"createdAt":"2025-04-21T21:34:39.899Z","updatedAt":"2025-04-21T21:34:39.899Z"}},{"id":3,"name":"Eggfruit Juice (500ml)","description":"Now with even more exotic flavour.","price":8.99,"deluxePrice":8.99,"image":"eggfruit_juice.jpg","createdAt":"2025-04-21T21:34:39.552Z","updatedAt":"2025-04-21T21:34:39.552Z","deletedAt":null,"BasketItem":{"ProductId":3,"BasketId":1,"id":3,"quantity":1,"createdAt":"2025-04-21T21:34:39.899Z","updatedAt":"2025-04-21T21:34:39.899Z"}}]}}
 GET /assets/public/images/products/apple_juice.jpg HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
-If-None-Match: W/"3bbb-19596799bb8"
+If-None-Match: W/"3bbb-19..."
 Priority: u=5
 
 
@@ -79,23 +79,23 @@ X-Recruiting: /#/jobs
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0
 Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
-ETag: W/"3bbb-19596799bb8"
+ETag: W/"3bbb-19..."
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 
 GET /assets/public/images/products/apple_pressings.jpg HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
-If-None-Match: W/"71eb-19596799bb8"
+If-None-Match: W/"71eb-19..."
 Priority: u=5
 
 
@@ -108,23 +108,23 @@ X-Recruiting: /#/jobs
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0
 Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
-ETag: W/"71eb-19596799bb8"
+ETag: W/"71eb-19..."
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 
 GET /assets/public/images/products/artwork2.jpg HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
-If-None-Match: W/"8c26-19596799bb8"
+If-None-Match: W/"8c26-19..."
 Priority: u=5
 
 
@@ -137,23 +137,23 @@ X-Recruiting: /#/jobs
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0
 Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
-ETag: W/"8c26-19596799bb8"
+ETag: W/"8c26-19..."
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 
 GET /assets/public/images/products/eggfruit_juice.jpg HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
-If-None-Match: W/"3ae0-19596799bb8"
+If-None-Match: W/"3ae0-19..."
 Priority: u=5
 
 
@@ -166,23 +166,23 @@ X-Recruiting: /#/jobs
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0
 Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
-ETag: W/"3ae0-19596799bb8"
+ETag: W/"3ae0-19..."
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 
 GET /assets/public/images/products/fruit_press.jpg HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
-If-None-Match: W/"42b8-19596799bb8"
+If-None-Match: W/"42b8-19..."
 Priority: u=5
 
 
@@ -195,23 +195,23 @@ X-Recruiting: /#/jobs
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0
 Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
-ETag: W/"42b8-19596799bb8"
+ETag: W/"42b8-19..."
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 
 GET /assets/public/images/products/permafrost.jpg HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
-If-None-Match: W/"16dc9-19596799bb8"
+If-None-Match: W/"16dc9-19..."
 Priority: u=5
 
 
@@ -224,23 +224,23 @@ X-Recruiting: /#/jobs
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0
 Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
-ETag: W/"16dc9-19596799bb8"
+ETag: W/"16dc9-19..."
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 
 GET /assets/public/images/products/melon_bike.jpeg HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
-If-None-Match: W/"5414-19596799bb8"
+If-None-Match: W/"5414-19..."
 Priority: u=5
 
 
@@ -253,23 +253,23 @@ X-Recruiting: /#/jobs
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0
 Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
-ETag: W/"5414-19596799bb8"
+ETag: W/"5414-19..."
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 
 GET /assets/public/images/products/fan_facemask.jpg HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMDQtMjEgMjE6MzQ6MzguNjM0ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc0NTI3MjI2Mn0.V4KqalQ7shSU-98HOymTE6FsZfi50GqkxyQZVJJVCzOefLcuIcSrveQQb2domKb7j1E4yzwttXE7fq257pIjlb0u1zqby2wlLSLk1gPly47fEZERF17hQGGlB8WuLQbR47uIyIWAR0O4JROcQ2mYvXKguUkNkO6UlsgxKeEHgXw
 If-Modified-Since: Fri, 14 Mar 2025 21:05:07 GMT
-If-None-Match: W/"6936-19596799bb8"
+If-None-Match: W/"6936-19..."
 Priority: u=5
 
 
@@ -282,7 +282,7 @@ X-Recruiting: /#/jobs
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0
 Last-Modified: Fri, 14 Mar 2025 21:05:07 GMT
-ETag: W/"6936-19596799bb8"
+ETag: W/"6936-19..."
 Date: Mon, 21 Apr 2025 21:51:01 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
