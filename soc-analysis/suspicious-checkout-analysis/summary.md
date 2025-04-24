@@ -1,7 +1,7 @@
 🔎 1. Observamos tráfico HTTP en una app (probablemente vulnerable)
 Objetivo: detectar fugas de información o acciones inseguras a través de tráfico interceptado.
 
-Herramientas: Proxy (como Burp, mitmproxy, ZAP, etc.), navegador web.
+Herramientas: Proxy (como Burpsuite y Wireshark, navegador web.
 
 🧠 2. Detectamos tráfico de un pedido/orden
 Ejemplo observado:
