@@ -11,11 +11,6 @@ Este repositorio documenta mi experiencia como analista SOC utilizando OWASP Jui
 
 ## 📁 Contenido
 
-1. [Setup del entorno](setup/instalación_y_configuración.md)
-2. [Reconocimiento con BurpSuite](reconocimiento/burpsuite_recon.md)
-3. [Análisis de tráfico con Wireshark](análisis_tráfico/wireshark_logs.md)
-4. [Detección de incidentes en la SIEM](detección_incidentes/siem_alertas.md)
-5. [Informes y lecciones aprendidas](informes/)
 
 ## 📌 Objetivo
 Simular ataques reales en Juice Shop, capturar el tráfico, detectar eventos sospechosos y generar alertas e informes como un analista SOC.
