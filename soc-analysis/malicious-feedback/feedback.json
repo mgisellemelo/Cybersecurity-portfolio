@@ -1,14 +1,14 @@
 POST /api/Feedbacks/ HTTP/1.1
-Host: 10.0.2.15:3000
+Host: 00.0.0.00:3000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 Accept: application/json, text/plain, */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate, br
 Content-Type: application/json
 Content-Length: 83
-Origin: http://10.0.2.15:3000
+Origin: http://00.0.0.00:3000
 Connection: keep-alive
-Referer: http://10.0.2.15:3000/
+Referer: http://00.0.0.00:3000/
 Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss
 Priority: u=0
 
@@ -22,7 +22,7 @@ X-Recruiting: /#/jobs
 Location: /api/Feedbacks/9
 Content-Type: application/json; charset=utf-8
 Content-Length: 178
-ETag: W/"b2-agMJ6S/QQkjVbhvFnIHEYPeWViw"
+ETag: W/"b2-agMJ6S/QQ..."
 Vary: Accept-Encoding
 Date: Mon, 21 Apr 2025 21:47:07 GMT
 Connection: keep-alive
