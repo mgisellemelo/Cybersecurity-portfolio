@@ -9,6 +9,6 @@ Hej There! I´m Giselle, a new cybersecurity expert who is diving into the IT wo
 
 # Projects
 
-In the folder **soc-analysis** you can see the findings in the control environment Juice-shop de OWASP that was deployed in docker in Kali Linux. 
+In the folder **soc-analysis** you can see the findings in the control environment Juice-shop the OWASP that was deployed in docker in Kali Linux. 
 There I have found multiple vulnerabilities and I have analyzed them from the SOC Analyst point of view.
 There are reports and summaries explaining all the process from the installation of Juice-shop until the final analysis.
