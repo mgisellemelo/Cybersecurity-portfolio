@@ -29,14 +29,21 @@ Once said that, we can proceed with the structure of this guide. You can choose 
 
 ## WHAT CAN WE DO IN ORDER TO FOLLOW THIS STEPS?
 
-You can for example:
-✅ Defemse in depth
-✅ EDR
-✅ Host-based Firewall
-✅ HIPS
-✅ Scan open ports and services
-✅ Change default setting
-✅ Remove unnecessary software
+You can for example:  
+✅ Defemse in depth  
+
+✅ EDR  
+
+✅ Host-based Firewall  
+
+✅ HIPS  
+
+✅ Scan open ports and services  
+
+✅ Change default setting  
+
+✅ Remove unnecessary software  
+
 
 
 
