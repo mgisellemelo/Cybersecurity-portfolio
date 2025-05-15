@@ -1,9 +1,46 @@
-# Hardening básico de un sistema operativo (perspectiva de SysAdmin)
+# Basic hardening for a Windows Operating System (SysAdmin Perspective)
 
-## 1. Introducción
+## 1. Introduction
 
-El hardening es el proceso de asegurar un sistema reduciendo su superficie de ataque. Como administradores de sistemas, nuestra responsabilidad es configurar servidores y estaciones de trabajo siguiendo principios de **mínimos privilegios**, **mínimos servicios** y **máxima visibilidad**.
+Hardning is the process of asure a system with the goal of reduce any risk of an attack. As an systema administrator, you have the repsonsability to configure servers and workstations following the next principles:  **least privileges**, **least services** y **maximum visibility**.
 
-Esta guía busca ser un punto de partida para nuevos profesionales que quieren entender cómo proteger una red y los sistemas que la componen.
+This guide has been done with one aim: to be useful as a starter for all the new professionals in the cybersecurity area that want to make their hosts, networks and systems more secure.
 
----
+Once said that, we can proceed with the structure of this guide. You can choose the folder that you want to look at since they are divided for hardening technique for each Operating System. In Windows you can see the steps to follow with WindowsDefender and also with a private software like COMODO (antivirus).
+##
+
+## BASELINE
+
+1. UPDATES
+   It's essential to update your system in order to get the most complete version of you OS. The new versions have better patches and new realises of the system that works better allways.
+2. ACCOUNTS
+   It fundamental to crear users with account limitations and strong passwords.
+3. SECURITY AND NETWORK ACCESS
+   It is important to limit the network access.
+4. SOFTWARE
+   Install a good antivurs and antimalware. If you have Windows, you can use WindowsDefender which has developed a very good security software in the last years.
+5. ENCRYPT
+   If you have important data you in you host you should encrypt all the data and the system.
+6. NETWORK CONNECTION
+     It's also important to encrypt this network to add another security layer. You can use a VPN or an application to encryp it.
+
+
+##
+
+## WHAT CAN WE DO IN ORDER TO FOLLOW THIS STEPS?
+
+You can for example:
+:white_check_mark: Defemse in depth
+:white_check_mark: EDR
+:white_check_mark:Host-based Firewall
+:white_check_mark: HIPS
+:white_check_mark: Scan open ports and services
+:white_check_mark: Change default setting
+:white_check_mark: Remove unnecessary software
+
+
+
+
+
+
+
