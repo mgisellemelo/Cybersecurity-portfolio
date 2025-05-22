@@ -8,6 +8,7 @@ Configuration > Updates and security > Windows Update
 
 - Search for updates.
 - Install optional updates (drivers, firmware).
+- Configure automatic updates.
 
 ##
 ✅ 2: Windows Defender Configuration
@@ -15,6 +16,7 @@ If you have another antivurus, Windows Defender doesn't make an active analysis 
 
 - Enable realtime protection
 - Enable the cloud protection.
+- Enable automatic updates of its database as frquently as possible.
 
 
 ##
@@ -24,6 +26,7 @@ Firewall > net protection
 . Enable it for private and public networks.
 . Allow app thorugh the firewall.
 . Check which apps have permissions and delete the ones that you not longer use.
+. Block inbound traffic in the firewall configuration.
 
 
 ##
@@ -54,6 +57,11 @@ Firewall > net protection
 -Server → desable if you don't share folders
 
 -SSDP Discovery, UPnP Device Host → desable if you don't need a devicede UPnP
+- For example: SSH is a critical vulnerability veary easy to configure. You can install a secure SSHServer and use a key-based authentication. Also limit the acces to specific users.
+
+##
+✅ 7: Backup
+- Be sure that your backup is routinely backing up and encrypted.
 
 
 
